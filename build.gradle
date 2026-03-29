@@ -25,10 +25,9 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     runtimeOnly 'com.h2database:h2'
 
-    // MySQL (produção)
-    runtimeOnly 'com.mysql:mysql-connector-j'
-
-    // Validação
+    // PostgreSQL (produção)
+	runtimeOnly 'org.postgresql:postgresql'
+	// Validação
     implementation 'org.springframework.boot:spring-boot-starter-validation'
 
     // Swagger / OpenAPI
