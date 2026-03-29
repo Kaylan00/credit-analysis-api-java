@@ -7,7 +7,7 @@
 /* ────────────────────────────────────────────────
    CONFIGURATION
    ──────────────────────────────────────────────── */
-const API = 'http://localhost:8080/api/v1/proposals';
+const API = 'https://credit-analysis-api-java.onrender.com/api/v1/proposals';
 
 let currentPage = 0;
 let currentRisk = '';
